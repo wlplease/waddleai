@@ -1,0 +1,161 @@
+.
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── README_CN.md
+├── README_FR.md
+├── README_JA.md
+├── README_KOR.md
+├── README_PTBR.md
+├── characters
+│   ├── waddle.character.json
+│   └── waddlev1.character.json
+├── docs
+│   ├── README.md
+│   ├── README_CN.md
+│   ├── api
+│   │   ├── classes
+│   │   ├── enumerations
+│   │   ├── functions
+│   │   ├── index.md
+│   │   ├── interfaces
+│   │   ├── type-aliases
+│   │   ├── typedoc-sidebar.cjs
+│   │   └── variables
+│   ├── babel.config.js
+│   ├── docs
+│   │   ├── advanced
+│   │   ├── api
+│   │   ├── community
+│   │   ├── core
+│   │   ├── guides
+│   │   ├── intro.md
+│   │   ├── packages
+│   │   └── quickstart.md
+│   ├── docusaurus.config.js
+│   ├── package.json
+│   ├── sidebars.js
+│   ├── src
+│   │   ├── components
+│   │   ├── css
+│   │   └── pages
+│   └── static
+│       └── img
+├── package-lock.json
+├── package.json
+├── packages
+│   ├── adapter-postgres
+│   │   ├── config.toml
+│   │   ├── migrations
+│   │   ├── package.json
+│   │   ├── schema.sql
+│   │   ├── seed.sql
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── adapter-sqlite
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── adapter-sqljs
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── adapter-supabase
+│   │   ├── config.toml
+│   │   ├── package.json
+│   │   ├── schema.sql
+│   │   ├── seed.sql
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── agent
+│   │   ├── package.json
+│   │   ├── src
+│   │   └── tsconfig.json
+│   ├── client-auto
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── client-direct
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── client-discord
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── client-telegram
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── client-twitter
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── core
+│   │   ├── elizaConfig.example.yaml
+│   │   ├── eslint.config.mjs
+│   │   ├── jest.config.js
+│   │   ├── nodemon.json
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── renovate.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   ├── tsup.config.ts
+│   │   └── types
+│   ├── plugin-bootstrap
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── plugin-image-generation
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── plugin-node
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── plugin-solana
+│   │   ├── package.json
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   ├── plugin-starknet
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   ├── src
+│   │   ├── tsconfig.json
+│   │   └── tsup.config.ts
+│   └── plugin-trustdb
+│       ├── package.json
+│       ├── src
+│       ├── tsconfig.json
+│       └── tsup.config.ts
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── prettier.config.cjs
+├── project-structure.txt
+├── scripts
+│   ├── build.sh
+│   ├── clean.sh
+│   ├── dev.sh
+│   ├── docker.sh
+│   ├── extracttweets.js
+│   └── gettweets.mjs
+└── tsconfig.json
+
+61 directories, 98 files

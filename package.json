@@ -1,5 +1,5 @@
 {
-    "name": "eliza",
+    "name": "waddleai",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "build": "bash ./scripts/build.sh",
@@ -37,6 +37,15 @@
         "node": ">=22"
     },
     "dependencies": {
+        "@ai16z/adapter-postgres": "^0.1.6",
+        "@ai16z/adapter-sqlite": "^0.1.6",
+        "@ai16z/client-direct": "^0.1.6",
+        "@ai16z/client-discord": "^0.1.6",
+        "@ai16z/eliza": "^0.1.6",
+        "@ai16z/plugin-bootstrap": "^0.1.6",
+        "@ai16z/plugin-node": "^0.1.6",
+        "@ai16z/plugin-solana": "^0.1.6",
+        "@types/node": "22.8.4",
         "ollama-ai-provider": "^0.16.1",
         "optional": "^0.1.4",
         "sharp": "^0.33.5"

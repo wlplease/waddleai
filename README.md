@@ -1,105 +1,119 @@
-# Eliza 🤖
+WaddleAI
 
-<div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
-</div>
+WaddleAI is your trusted guide through the blockchain world, providing scalable, user-friendly solutions with a penguin-inspired touch. Empowering NFT communities and blockchain projects, WaddleAI bridges the gap between innovation and accessibility.
 
-<div align="center">
-  
-  📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
-  
-</div>
+Features
 
-## ✨ Features
+Penguin-Friendly UX: Simplifies blockchain interactions for all users.
 
--   🛠️ Full-featured Discord, Twitter and Telegram connectors
--   🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
--   👥 Multi-agent and room support
--   📚 Easily ingest and interact with your documents
--   💾 Retrievable memory and document store
--   🚀 Highly extensible - create your own actions and clients
--   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
--   📦 Just works!
+Scalable Solutions: Layer 2 scalability tailored to NFT ecosystems and community-driven projects.
 
-## 🎯 Use Cases
+Cuteness Meets Functionality: Optimized for seamless integrations and delightful experiences.
 
--   🤖 Chatbots
--   🕵️ Autonomous Agents
--   📈 Business Process Handling
--   🎮 Video Game NPCs
--   🧠 Trading
+Getting Started
 
-## 🌍 Translations
+Prerequisites
 
-<details>
-<summary>Available Languages</summary>
+Node.js (v18+ recommended)
 
--   [中文说明](./README_CN.md)
--   [日本語の説明](./README_JA.md)
--   [한국어 설명](./README_KOR.md)
--   [Instructions en français](./README_FR.md)
--   [Instruções em português](./README_PTBR.md)
+PNPM (preferred package manager)
 
-</details>
+Installation
 
-## 🚀 Quick Start
+Clone the repository:
 
-### Prerequisites
+git clone https://github.com/yourusername/waddleai.git
+cd waddleai
 
--   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 22+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
--   [pnpm](https://pnpm.io/installation)
+Install dependencies:
 
-> **Note for Windows Users:** WSL is required
+pnpm install
 
-### Edit the .env file
+Build the project:
 
-Copy .env.example to .env and fill in the appropriate values
-
-```
-cp .env.example .env
-```
-
-### Edit the character file
-
-1. Open `src/core/defaultCharacter.ts` to modify the default character
-
-2. To load custom characters:
-    - Use `pnpm start --characters="path/to/your/character.json"`
-    - Multiple character files can be loaded simultaneously
-
-### Start Eliza
-
-After setting up the .env file and character file, you can start the bot with the following command:
-
-```bash
-pnpm i
 pnpm build
-pnpm start
 
-# The project iterates fast, sometimes you need to clean the project if you are coming back to the project
-pnpm clean
-```
+Start the development server:
 
-#### Additional Requirements
+pnpm dev
 
-You may need to install Sharp. If you see an error when starting up, try installing it with the following command:
+Configuration
 
-```
-pnpm install --include=optional sharp
-```
+Environment Variables
 
-### Community & contact
+Create a .env file in the root directory and set the following variables:
 
--   [GitHub Issues](https://github.com/ai16z/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
--   [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
+OPENAI_API_KEY=your-openai-api-key
 
-## Contributors
+tsconfig.json
 
-<a href="https://github.com/ai16z/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ai16z/eliza" />
-</a>
+This project uses TypeScript. Ensure the tsconfig.json is correctly configured for your development environment.
 
-## Star History
+Project Structure
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ai16z/eliza&type=Date)](https://star-history.com/#ai16z/eliza&Date)
+waddleai/
+├── src/                # Source code
+├── dist/               # Compiled output
+├── node_modules/       # Dependencies
+├── tsconfig.json       # TypeScript configuration
+├── package.json        # Project metadata
+├── .env                # Environment variables
+
+Scripts
+
+Development
+
+pnpm dev: Starts the development server.
+
+Build
+
+pnpm build: Compiles the project.
+
+Lint
+
+pnpm lint: Lints the source code.
+
+Test
+
+pnpm test: Runs the test suite.
+
+Contributing
+
+Fork the repository.
+
+Create a new branch:
+
+git checkout -b feature-name
+
+Commit your changes:
+
+git commit -m "Add a new feature"
+
+Push to the branch:
+
+git push origin feature-name
+
+Open a pull request.
+
+Eliza AI and a16z
+
+WaddleAI builds upon innovative ideas inspired by Eliza AI, a project driven by AI experimentation and creativity. To learn more about the Eliza AI initiative, visit the a16z Eliza Project page.
+
+License
+
+This project is licensed under the MIT License.
+
+Community
+
+Join our community of penguin enthusiasts:
+
+Discord
+
+Twitter
+
+Acknowledgements
+
+Special thanks to the Pudgy Penguins and blockchain communities for inspiring this project.
+
+Waddle on!
+
